@@ -1,0 +1,1 @@
+<?= $page->bio()->kirbytext() ?>

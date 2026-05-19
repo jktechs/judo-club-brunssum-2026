@@ -1,0 +1,31 @@
+Title: groups
+
+----
+
+Groups:
+
+-
+  name: O1
+  desc: Beginners until 8 years old
+-
+  name: O2
+  desc: Reasonably advanced until 8 years old
+-
+  name: M1
+  desc: Beginners from 9 to 13 years old
+-
+  name: M2
+  desc: Reasonably advanced from 9 to 13 years old
+-
+  name: M3
+  desc: Advanced from 9 to 13 years old
+-
+  name: B1
+  desc: Seniors from 14 to 16 years old
+-
+  name: B2/3
+  desc: Seniors from 16 years old
+
+----
+
+Uuid: 3jvhwga2x8vows0w

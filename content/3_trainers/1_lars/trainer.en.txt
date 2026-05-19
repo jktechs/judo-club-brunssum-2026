@@ -1,0 +1,17 @@
+Name: lars
+
+----
+
+Role: trainer, board
+
+----
+
+Bio: testing
+
+----
+
+Image: - file://bzoknspe2qpzbu8y
+
+----
+
+Uuid: oxc2qyev0s0nhxm9

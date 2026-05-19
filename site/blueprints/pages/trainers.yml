@@ -1,0 +1,9 @@
+title: Trainers page
+
+columns:
+  main:
+    width: 1
+    sections:
+      pages:
+        type: pages
+        template: trainer

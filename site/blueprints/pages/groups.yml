@@ -1,0 +1,26 @@
+title: Groups page
+
+columns:
+  main:
+    width: 1
+    sections:
+      text-fields:
+        type: fields
+        fields:
+          groups:
+            label: Groups
+            type: structure
+            fields:
+              name:
+                label: Name
+                type: text
+                translate: false
+              desc:
+                label: Description
+                type: text
+              price:
+                label: Price (p. month)
+                type: number
+                step: .01
+                before: €
+                translate: false
