@@ -1,0 +1,11 @@
+Title: Whatsapp
+
+----
+
+Text:
+
+Onze club maakt gebruike van een Whatsapp groep voor mededelingen. Op de club zelf kun je een QR-code scannen om toegelaten te worden.
+
+----
+
+Uuid: xtwwdqdn6jcwi4ps

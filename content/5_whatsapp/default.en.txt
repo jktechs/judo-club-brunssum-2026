@@ -1,0 +1,11 @@
+Title: Whatsapp
+
+----
+
+Text:
+
+Our club makes use of a Whatsapp group for announcements. To gain access you can scan a QR-code at the club.
+
+----
+
+Uuid: xtwwdqdn6jcwi4ps
