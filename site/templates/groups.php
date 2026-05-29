@@ -39,51 +39,45 @@ thead th {
 }
 </style>
 <article>
-  <h1>Groups</h1>
+  <h1><?= $page->title() ?></h1>
 </article>
 <article>
-  <p>
-    Hieronder vind je de lestijden en de groepsindeling. De leeftijden
-    die genoemd staan, zijn grove richtlijnen. De daadwerkelijke
-    indeling wordt door de trainers op individuele basis gemaakt, om
-    ervoor te zorgen dat iedereen op zijn/haar eigen niveau kan trainen
-    en voldoende uitgedaagd wordt.
-  </p>
+  <p><?= $page->text()->kirbytext() ?></p>
   <table>
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Timeslots</th>
+        <th><?= t("name") ?></th>
+        <th><?= t("description") ?></th>
+        <th><?= t("price") ?></th>
+        <th><?= t("lesson-times") ?></th>
       </tr>
     </thead>
     <tbody>
         <?php $defaults = $page->content("default")->groups()->toStructure(); ?>
         <?php foreach ($page->groups()->toStructure() as $i => $group): ?>
           <tr>
-            <td data-label="Name">
+            <td data-label="<?= t("name") ?>">
               <?= $group->name()->html() ?>
             </td>
             <td
-              data-label="Description"
+              data-label="<?= t("description") ?>"
             >
               <?= $group->desc()->html() ?>
             </td>
-            <td data-label="Price">
+            <td data-label="<?= t("price") ?>">
               € <?= $defaults->nth($i)->price()->toFloat() ?>
             </td>
             <td
-              data-label="Timeslots"
+              data-label="<?= t("lesson-times") ?>"
             >
               <p>
-                Monday
+                <?= t("monday") ?>
                 <?= $defaults->nth($i)->monday_start()->toDate("H:i") ?>
                 -
                 <?= $defaults->nth($i)->monday_end()->toDate("H:i") ?>
               </p>
               <p>
-                Saturday
+                <?= t("saturday") ?>
                 <?= $defaults->nth($i)->saturday_start()->toDate("H:i") ?>
                 -
                 <?= $defaults->nth($i)->saturday_end()->toDate("H:i") ?>
@@ -93,11 +87,5 @@ thead th {
         <?php endforeach; ?>
     </tbody>
   </table>
-  <p>
-    Daarnaast bieden we gratis aanvullende trainingen in de vorm van
-    wedstrijdtraining voor onze jeugd en conditie-/krachttraining voor
-    onze senioreleden. Heb je interesse in één van deze trainingen,
-    vraag dan even aan je leraar of het geschikt voor je is.
-  </p>
 </article>
 <?php snippet("footer"); ?>

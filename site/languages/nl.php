@@ -9,7 +9,14 @@ return [
     ],
     'name' => 'Dutch',
     'translations' => [
-
+        'description' => 'Beschrijving',
+        'price' => 'Prijs',
+        'lesson-times' => 'Lestijden',
+        'monday' => 'Maandag',
+        'saturday' => 'Zaterdag',
+        'about-us' => 'Over ons',
+        'dark' => 'Donker',
+        'light' => 'Licht'
     ],
     'url' => NULL
 ];

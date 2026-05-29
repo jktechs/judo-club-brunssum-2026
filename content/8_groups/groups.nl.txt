@@ -1,27 +1,34 @@
-Title: Groups
+Title: Groepen
+
+----
+
+Text:
+
+Hieronder vind je de lestijden en de groepsindeling. De leeftijden
+die genoemd staan, zijn grove richtlijnen. De daadwerkelijke
+indeling wordt door de trainers op individuele basis gemaakt, om
+ervoor te zorgen dat iedereen op zijn/haar eigen niveau kan trainen
+en voldoende uitgedaagd wordt.
+Hiernaast bieden we gratis aanvullende trainingen in de vorm van
+wedstrijdtraining voor onze jeugd en conditie-/krachttraining voor
+onze senioreleden. Heb je interesse in één van deze trainingen,
+vraag dan even aan je leraar of het geschikt voor je is.
 
 ----
 
 Groups:
 
--
-  name: O1
+- 
   desc: Beginners tot 8 jaar
--
-  name: O2
+- 
   desc: Redelijk ervaren tot 8 jaar
--
-  name: M1
+- 
   desc: Beginners van 9 tot 13 jaar
--
-  name: M2
+- 
   desc: Redelijk ervaren van 9 tot 13 jaar
--
-  name: M3
+- 
   desc: Ervaren van 9 tot 13 jaar
--
-  name: B1
+- 
   desc: Senioren van 14-16 jaar
--
-  name: B2/3
+- 
   desc: Senioren vanaf 16 jaar

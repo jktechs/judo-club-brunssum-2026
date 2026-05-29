@@ -116,6 +116,16 @@
           }
       }
     </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const match = document.cookie.match(/theme=(dark|light)/);
+        document.body.children[0].dataset.theme = match ? match[1] : 'dark';
+      });
+      function setTheme(theme) {
+        document.cookie = "theme="+theme+"; path=/; max-age=31536000";
+        document.body.children[0].dataset.theme = theme;
+      }
+    </script>
   </head>
   <body>
     <div data-theme="dark">
@@ -157,26 +167,34 @@ class="secondary outline">
               <a role="button" href="<?= page(
                 "groups",
               )->url() ?>" class="secondary outline">
-                Groups
+                <?= page("groups")->title() ?>
               </a>
             </li>
             <li>
               <details class="dropdown">
                 <summary role="button" class="secondary outline">
-                  About us
+                  <?= t("about-us") ?>
                 </summary>
                 <ul dir="rtl">
                   <li>
-                    <a href="<?= page("trainers") ?>">Trainers</a>
+                    <a href="<?= page("trainers") ?>"><?= page(
+  "trainers",
+)->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("counselors") ?>">Counselors</a>
+                    <a href="<?= page("counselors") ?>"><?= page(
+  "counselors",
+)->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("club-rules") ?>">Club rules</a>
+                    <a href="<?= page("club-rules") ?>"><?= page(
+  "club-rules",
+)->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("code-of-conduct") ?>">Code of Conduct</a>
+                    <a href="<?= page("code-of-conduct") ?>"><?= page(
+  "code-of-conduct",
+)->title() ?></a>
                   </li>
                 </ul>
               </details>
@@ -200,7 +218,7 @@ class="secondary outline">
                 <ul dir="rtl">
                   <li>
                     <a href="<?= $page->url("en") ?>">English</a>
-                    <a href="<?= $page->url("nl") ?>">Dutch</a>
+                    <a href="<?= $page->url("nl") ?>">Nederlands</a>
                   </li>
                 </ul>
               </details>
@@ -216,8 +234,8 @@ class="secondary outline">
                 </summary>
                 <ul dir="rtl">
                   <li>
-                    <a onclick="document.body.children[0].dataset.theme = 'dark'">Dark</a>
-                    <a onclick="document.body.children[0].dataset.theme = 'light'">Light</a>
+                    <a onclick="setTheme('dark')"><?= t("dark") ?></a>
+                    <a onclick="setTheme('light')"><?= t("light") ?></a>
                   </li>
                 </ul>
               </details>
