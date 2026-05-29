@@ -1,0 +1,21 @@
+Title: Thijn Muller
+
+----
+
+Name: Thijn Müller
+
+----
+
+Role: trainer
+
+----
+
+Bio: This text is only in dutch.
+
+----
+
+Image: - file://80vgvsvj1u2lzujt
+
+----
+
+Uuid: pkyibohtfe4hj0dq
