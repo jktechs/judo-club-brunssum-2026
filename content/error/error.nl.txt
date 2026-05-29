@@ -1,0 +1,9 @@
+Title: Error
+
+----
+
+Text:
+
+# Pagina niet gevonden of nog in ontwikkeling
+
+De pagina die je zoekt bestaat niet of is nog in ontwikkeling.

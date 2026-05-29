@@ -24,3 +24,19 @@ columns:
                 step: .01
                 before: €
                 translate: false
+              monday_start:
+                label: Start monday
+                type: time
+                translate: false
+              monday_end:
+                label: End monday
+                type: time
+                translate: false
+              saturday_start:
+                label: Start saturaday
+                type: time
+                translate: false
+              saturday_end:
+                label: End saturaday
+                type: time
+                translate: false

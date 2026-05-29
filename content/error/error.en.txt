@@ -2,4 +2,12 @@ Title: Error
 
 ----
 
-Uuid: y7vh0qzrc72gfsa8
+Text:
+
+# Page is not found or under development
+
+Either the page you are trying to reach does not exist or it is still being worked on.
+
+----
+
+Uuid: rxybx9c1rnqygemv

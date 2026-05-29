@@ -1,0 +1,68 @@
+Title: Groups
+
+----
+
+Groups:
+
+-
+  name: O1
+  desc: Beginners until 8 years old
+  price: 16.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: O2
+  desc: Reasonably advanced until 8 years old
+  price: 16.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: M1
+  desc: Beginners from 9 to 13 years old
+  price: 16.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: M2
+  desc: >
+    Reasonably advanced from 9 to 13 years
+    old
+  price: 16.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: M3
+  desc: Advanced from 9 to 13 years old
+  price: 16.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: B1
+  desc: Seniors from 14 to 16 years old
+  price: 17.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+-
+  name: B2/3
+  desc: Seniors from 16 years old
+  price: 17.5
+  monday_start: 19:00:00
+  monday_end: 20:00:00
+  saturday_start: 10:00:00
+  saturday_end: 11:00:00
+
+----
+
+Uuid: 3jvhwga2x8vows0w

@@ -1,4 +1,4 @@
-Title: Code of Conduct
+Title: Gedragsregels
 
 ----
 
@@ -56,10 +56,8 @@ hiervan te handelen.
 Voor meer informatie kunt u terecht op de site van NOC-NSF via onderstaande links
 
 [http://nocnsf.nl/grensoverschrijdendgedrag](http://nocnsf.nl/grensoverschrijdendgedrag)
-http://nocnsf.nl/seksuele-intimidatie](http://www.nocnsf.nl/seksuele-intimidatie)
+[http://nocnsf.nl/seksuele-intimidatie](http://www.nocnsf.nl/seksuele-intimidatie)
 
----
 If you have a complaint about someone involved with this sportsclub
 or a general complaint, we would like to redirect you to our
-klachtenregeling and the klachtenformulier on our [**downloadpage**](http://judoclubbrunssum.nl/downloadpagina/).
----
+klachtenregeling and the klachtenformulier on our (link: downloads text: download pagina).

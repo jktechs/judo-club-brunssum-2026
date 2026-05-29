@@ -4,31 +4,24 @@ Title: Groups
 
 Groups:
 
-- 
+-
   name: O1
   desc: Beginners tot 8 jaar
-  price: 16.5
-- 
+-
   name: O2
   desc: Redelijk ervaren tot 8 jaar
-  price: 16.5
-- 
+-
   name: M1
   desc: Beginners van 9 tot 13 jaar
-  price: 16.5
-- 
+-
   name: M2
   desc: Redelijk ervaren van 9 tot 13 jaar
-  price: 16.5
-- 
+-
   name: M3
   desc: Ervaren van 9 tot 13 jaar
-  price: 16.5
-- 
+-
   name: B1
   desc: Senioren van 14-16 jaar
-  price: 17.5
-- 
+-
   name: B2/3
   desc: Senioren vanaf 16 jaar
-  price: 17.5

@@ -142,13 +142,13 @@
           <ul>
             <li><a href="<?= $site->url() ?>">Home</a></li>
             <li>
-              <a role="button" href="<?= page('error')->url() ?>" 
+              <a role="button" href="<?= page("error")->url() ?>"
 class="secondary outline">
                 Agenda
               </a>
             </li>
             <li>
-              <a role="button" href="<?= page('error')->url() ?>" 
+              <a role="button" href="<?= page("error")->url() ?>"
 class="secondary outline">
                 Contact
               </a>
@@ -167,22 +167,24 @@ class="secondary outline">
                 </summary>
                 <ul dir="rtl">
                   <li>
-                    <a href="">Teachers</a>
+                    <a href="<?= page("trainers") ?>">Trainers</a>
                   </li>
                   <li>
-                    <a href="">Counselors</a>
+                    <a href="<?= page("counselors") ?>">Counselors</a>
                   </li>
                   <li>
-                    <a href="">Club rules</a>
+                    <a href="<?= page("club-rules") ?>">Club rules</a>
                   </li>
                   <li>
-                    <a href="">Code of Conduct</a>
+                    <a href="<?= page("code-of-conduct") ?>">Code of Conduct</a>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <a role="button" href="" class="secondary outline">
+              <a role="button" href="<?= page(
+                "downloads",
+              )->url() ?>" class="secondary outline">
                 Downloads
               </a>
             </li>
