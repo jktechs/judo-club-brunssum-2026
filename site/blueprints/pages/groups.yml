@@ -27,8 +27,8 @@ columns:
                 step: .01
                 before: €
                 translate: false
-              mat:
-                label: Mat
+              monday_mat:
+                label: Monday mat
                 type: text
                 translate: false
               monday_start:
@@ -38,6 +38,10 @@ columns:
               monday_end:
                 label: End monday
                 type: time
+                translate: false
+              saturday_mat:
+                label: Saturday mat
+                type: text
                 translate: false
               saturday_start:
                 label: Start saturaday

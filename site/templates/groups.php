@@ -75,12 +75,16 @@ thead th {
                 <?= $defaults->nth($i)->monday_start()->toDate("H:i") ?>
                 -
                 <?= $defaults->nth($i)->monday_end()->toDate("H:i") ?>
+                Mat:
+                <?= $defaults->nth($i)->monday_mat() ?>
               </p>
               <p>
                 <?= t("saturday") ?>
                 <?= $defaults->nth($i)->saturday_start()->toDate("H:i") ?>
                 -
                 <?= $defaults->nth($i)->saturday_end()->toDate("H:i") ?>
+                Mat:
+                <?= $defaults->nth($i)->saturday_mat() ?>
               </p>
             </td>
           </tr>
