@@ -1,0 +1,17 @@
+Name: Marcel Rogge
+
+----
+
+Role: trainer, counselor
+
+----
+
+Bio: This text is only in dutch.
+
+----
+
+Image: - file://kfyzjaqirimmjmad
+
+----
+
+Uuid: 0if9voud9wb2s95s

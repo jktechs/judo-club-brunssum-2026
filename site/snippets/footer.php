@@ -1,5 +1,8 @@
       </main>
       <footer class="container">
+        <article>
+          <p>This site is under development. If something can't be found or accessed go to <a href="judoclubbrunssum.nl">the old site</a>.</p>
+        </article>
         <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
           <article>
             <hgroup>

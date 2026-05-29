@@ -188,6 +188,40 @@ class="secondary outline">
                 Downloads
               </a>
             </li>
+            <li>
+              <details class="dropdown">
+                <summary role="button" class="outline">
+                  <img
+                    alt="Language dropdown"
+                    class="icon"
+                    src="<?= url("assets/language.svg") ?>"
+                  />
+                </summary>
+                <ul dir="rtl">
+                  <li>
+                    <a href="<?= $page->url("en") ?>">English</a>
+                    <a href="<?= $page->url("nl") ?>">Dutch</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details class="dropdown">
+                <summary role="button" class="outline">
+                  <img
+                    alt="Theme dropdown"
+                    class="icon"
+                    src="<?= url("assets/theme.svg") ?>"
+                  />
+                </summary>
+                <ul dir="rtl">
+                  <li>
+                    <a onclick="document.body.children[0].dataset.theme = 'dark'">Dark</a>
+                    <a onclick="document.body.children[0].dataset.theme = 'light'">Light</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
           </ul>
         </nav>
       </header>

@@ -34,6 +34,7 @@ thead th {
     td::before {
         content: attr(data-label);
         margin-right: 1em;
+        font-weight: bold;
     }
 }
 </style>

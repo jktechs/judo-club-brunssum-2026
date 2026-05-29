@@ -1,0 +1,21 @@
+Title: Roy Stevens
+
+----
+
+Name: Roy Stevens
+
+----
+
+Role: board, trainer
+
+----
+
+Bio: This text is only in dutch.
+
+----
+
+Image: - file://mfiw9c8vqqtcarmj
+
+----
+
+Uuid: dmlndh8nqkxdvcik

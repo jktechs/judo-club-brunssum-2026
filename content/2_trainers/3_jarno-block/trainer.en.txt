@@ -1,0 +1,17 @@
+Name: Jarno Block
+
+----
+
+Role: trainer
+
+----
+
+Bio: This text is only in dutch.
+
+----
+
+Image: - file://ayavkamrkcjkw3rb
+
+----
+
+Uuid: hzcit6uqclzretkh

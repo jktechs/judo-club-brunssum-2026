@@ -2,7 +2,23 @@ Title: Downloads
 
 ----
 
-Text: 
+Text:
+
+# Belt cards
+yellow: (file: file://jlrv09ijyrd3lnir)
+orange: (file: file://5ddcy4dcwffprecn)
+green: (file: file://xrrdbbk1u13t6xsf)
+blue: (file: file://8k8m1jmpul32yrpn)
+brown: (file: file://bjoudel5sv7ymvun)
+black: (file: file://fauamiru3u4hfz1d)
+
+# Downloads
+Membership form: (file: file://n5ar8wowrtafeblm)
+Current Calendar: (file: file://k6b9uunzteqv8961)
+Complaint procedure: (file: file://ctnjvifuuo1aibtj)
+Complaints form: (file: file://ndbc8bsl1kwkeuaw)
+Privacy policy: (file: file://h4firxlgriv2el8g)
+Bylaws: (file: file://p8do0dp9w46znbto)
 
 ----
 
