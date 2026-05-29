@@ -27,6 +27,10 @@ columns:
                 step: .01
                 before: €
                 translate: false
+              mat:
+                label: Mat
+                type: text
+                translate: false
               monday_start:
                 label: Start monday
                 type: time
