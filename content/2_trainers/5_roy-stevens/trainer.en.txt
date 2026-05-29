@@ -6,7 +6,7 @@ Name: Roy Stevens
 
 ----
 
-Role: board, trainer
+Role: trainer, board
 
 ----
 
@@ -14,7 +14,7 @@ Bio: This text is only in dutch.
 
 ----
 
-Image: - file://mfiw9c8vqqtcarmj
+Image: - file://voogzejpespstgtv
 
 ----
 
