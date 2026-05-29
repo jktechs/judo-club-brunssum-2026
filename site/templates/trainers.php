@@ -32,7 +32,7 @@
         <img
           alt="Portrait of <?= $trainer->name() ?>"
           src="<?= $trainer->content()->image()->toFile()->url() ?>"
-          style="width: 100%;"
+          style="width: 18em;"
         />
         <h2><?= $trainer->name() ?></h2>
       </article>
