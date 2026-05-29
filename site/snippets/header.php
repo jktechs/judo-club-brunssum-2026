@@ -142,12 +142,14 @@
           <ul>
             <li><a href="<?= $site->url() ?>">Home</a></li>
             <li>
-              <a role="button" href="" class="secondary outline">
+              <a role="button" href="<?= page('error')->url() ?>" 
+class="secondary outline">
                 Agenda
               </a>
             </li>
             <li>
-              <a role="button" href="" class="secondary outline">
+              <a role="button" href="<?= page('error')->url() ?>" 
+class="secondary outline">
                 Contact
               </a>
             </li>
