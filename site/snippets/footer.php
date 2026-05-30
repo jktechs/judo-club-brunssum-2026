@@ -32,11 +32,11 @@
           </article>
           <article>
             <hgroup>
-              <h6>Contact information</h6>
+              <h6>Contact <?= t("information") ?></h6>
               <p>
                 Regentessestraat 47, 6441 GD Brunssum
                 <br />
-                Phone number:
+                <?= t("phone_number") ?>:
                 <a aria-label="Contact phone number" href="tel:0031622433444">
                   06 - 22 43 34 44
                 </a>
@@ -53,11 +53,11 @@
           </article>
           <article>
             <hgroup>
-              <h6>Location information</h6>
+              <h6><?= t("location") ?> <?= t("information") ?></h6>
               <p>
                 Heugerstraat 2A, 6443 BS Brunssum
                 <br />
-                Phone number:
+                <?= t("phone_number") ?>:
                 <a aria-label="Contact phone number" href="tel:0031455270016">
                   045 - 52 700 16
                 </a>
