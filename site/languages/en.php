@@ -16,7 +16,10 @@ return [
         'saturday' => 'Saturday',
         'about-us' => 'About us',
         'dark' => 'Donker',
-        'light' => 'Licht'
+        'light' => 'Licht',
+        'information' => 'information',
+        'location' => 'Location',
+        'phone_number' => 'Phone number'
     ],
     'url' => NULL
 ];

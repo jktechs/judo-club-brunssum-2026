@@ -16,7 +16,10 @@ return [
         'saturday' => 'Zaterdag',
         'about-us' => 'Over ons',
         'dark' => 'Donker',
-        'light' => 'Licht'
+        'light' => 'Licht',
+        'information' => 'Informatie',
+        'location' => 'Locatie',
+        'phone_number' => 'Telefoon nummer'
     ],
     'url' => NULL
 ];
