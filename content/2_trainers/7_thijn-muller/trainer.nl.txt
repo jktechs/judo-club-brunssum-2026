@@ -1,4 +1,8 @@
-Title: Thijn Muller
+Name: Thijn Müller
+
+----
+
+Role: trainer
 
 ----
 
@@ -9,3 +13,11 @@ Ik ben Thijn Müller. Bij Judoclub Brunssum volg ik de opleiding tot Judo Jeugdl
 Naast mijn werk binnen de club studeer ik Werktuigbouwkunde aan de TU Eindhoven. In die opleiding staat het analyseren van problemen en het vinden van duidelijke, effectieve oplossingen centraal. Die aanpak neem ik mee de judomat op: ik kijk waar een kind vastloopt, maak het probleem behapbaar en help stap voor stap naar verbetering. De opleiding is volledig in het Engels, waardoor ik ook twee­talig kan lesgeven wanneer dat nodig is.
 
 Het werken met kinderen geeft mij energie. Ik vind het belangrijk om hen vooruitgang te laten ervaren door helder uitleggen, samen oefenen en vertrouwen opbouwen. Samenwerken, verantwoordelijkheid nemen en plezier maken staan daarbij centraal, net als goed luisteren naar elkaar en respect tonen.
+
+----
+
+Image: - file://xd6hzph3imqhcvtc
+
+----
+
+Uuid: pkyibohtfe4hj0dq

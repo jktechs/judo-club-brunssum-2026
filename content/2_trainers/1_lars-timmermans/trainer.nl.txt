@@ -1,3 +1,11 @@
+Name: Lars Timmermans
+
+----
+
+Role: trainer
+
+----
+
 Bio:
 
 Hallo, ik ben Lars Timmermans.
@@ -14,3 +22,11 @@ Ik heb op in 2016 mijn 1de dan (zwarte band) gehaald en in 2023 ook mijn tweede 
 Verder zit ik in de kampcommisie en ben ik bij de andere activiteiten ook altijd van de partij.
 
 Ik heb Ergotherapie gestudeerd op Hogeschool Zuyd in Heerlen en ben hier in 2025 afgestudeerd. Daarvoor heb ik nog een jaar sportkunde gedaan en heb ik de havo op het St.-Janscollege afgerond. Momenteel werk ik als adviseur bij een bedrijf dat ondersteunende communicatiemiddelen biedt voor mensen met een communicatieve beperking.
+
+----
+
+Image: - file://xez0flqoujgpc6yq
+
+----
+
+Uuid: oxc2qyev0s0nhxm9
