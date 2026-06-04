@@ -4,14 +4,6 @@ Title: Downloads
 
 Text:
 
-# Belt cards
-yellow: (file: file://jlrv09ijyrd3lnir)
-orange: (file: file://5ddcy4dcwffprecn)
-green: (file: file://xrrdbbk1u13t6xsf)
-blue: (file: file://8k8m1jmpul32yrpn)
-brown: (file: file://bjoudel5sv7ymvun)
-black: (file: file://fauamiru3u4hfz1d)
-
 # Downloads
 Membership form: (file: file://n5ar8wowrtafeblm)
 Current Calendar: (file: file://k6b9uunzteqv8961)
