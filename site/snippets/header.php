@@ -158,8 +158,9 @@ class="secondary outline">
               </a>
             </li>
             <li>
-              <a role="button" href="<?= page("error")->url() ?>"
-class="secondary outline">
+              <a role="button" href="<?= page(
+                "contact",
+              )->url() ?>" class="secondary outline">
                 Contact
               </a>
             </li>
@@ -177,22 +178,22 @@ class="secondary outline">
                 </summary>
                 <ul dir="rtl">
                   <li>
-                    <a href="<?= page("trainers") ?>"><?= page(
+                    <a href="<?= page("trainers")->url() ?>"><?= page(
   "trainers",
 )->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("counselors") ?>"><?= page(
+                    <a href="<?= page("counselors")->url() ?>"><?= page(
   "counselors",
 )->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("club-rules") ?>"><?= page(
+                    <a href="<?= page("club-rules")->url() ?>"><?= page(
   "club-rules",
 )->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("code-of-conduct") ?>"><?= page(
+                    <a href="<?= page("code-of-conduct")->url() ?>"><?= page(
   "code-of-conduct",
 )->title() ?></a>
                   </li>

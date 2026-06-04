@@ -1,3 +1,11 @@
+Name: Jarno Bolk
+
+----
+
+Role: trainer
+
+----
+
 Bio:
 
 Hallo mijn naam is Jarno Bolk, ik ben 29 jaar en beoefen de sport judo al 22 jaar. Op mijn 7e levensjaar ben ik bij judoclub Brunssum begonnen. Al snel had ik de sport onder de knie en ben ik begonnen met wedstrijden. Na de sport 6 jaar beoefend te hebben, besloot ik mijn vaardigheden elders te verbeteren en ben ik doorgestroomd naar de judovereniging Zarei Wahlwiller. Bij Zarei Wahlwiller hebben ze mij zowel technische alsook wedstrijdgericht naar een hoger niveau getild. Ik behaalde onder hun toezicht mijn 1e en 2e dan en heb op verschillende NK’s en internationale wedstrijden goed prestaties kunnen behalen.
@@ -5,3 +13,11 @@ Hallo mijn naam is Jarno Bolk, ik ben 29 jaar en beoefen de sport judo al 22 jaa
 Na een aantal ongelukkige blessures heb ik het wedstrijd judo helaas moeten opgeven. Toch wilde ik mij verder gaan ontwikkelen. Op mijn 19e levensjaar ben ik bij het CIOS in Sittard het keuzevak Judoleraar A gaan volgen. In 2012 haalde ik mijn opleiding. Ik besloot om weer terug te gaan waar het voor mij allemaal was begonnen: judoclub Brunssum. Ik ben daar in 2012 begonnen met lesgeven en tegelijkertijd ben ik op het CIOS begonnen met Judoleraar B. Deze opleiding sloot ik af in 2013 en behaalde mijn 3e dan.
 
 Op dit moment geef ik nog altijd met veel plezier les bij judoclub Brunssum. Ik vind het belangrijk de 2 grondspreuken van judo mee te geven aan de kinderen: Jita kyoei het doel (algemeen welzijn ) & het middel seiryoku zenyo ( inhoud / vorm / manier ).
+
+----
+
+Image: - file://xbvzqj4uxew9mwg8
+
+----
+
+Uuid: hzcit6uqclzretkh

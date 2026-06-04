@@ -21,7 +21,7 @@
                   src="<?= url("assets/instagram.svg") ?>"
                 />
               </a>
-              <a href="<?= page("whatsapp") ?>">
+              <a href="<?= page("whatsapp")->url() ?>">
                 <img
                   alt="Whatsapp info"
                   class="social-logo"

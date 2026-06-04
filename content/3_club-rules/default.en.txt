@@ -21,7 +21,3 @@ The most important rules are:
 - Ensure that membership fees are paid on time.
 
 Of course, there are more rules, but these are the most important ones.
-
-----
-
-Uuid: cc9soqpnq8nikyaf

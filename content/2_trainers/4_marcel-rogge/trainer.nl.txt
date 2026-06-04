@@ -1,3 +1,11 @@
+Name: Marcel Rogge
+
+----
+
+Role: trainer, counselor
+
+----
+
 Bio:
 
 Hallo, mijn naam is Marcel Rogge.
@@ -15,3 +23,11 @@ MarcelRogge@judoclubbrunssum.nl
 Met sportieve groet,
 
 Marcel Rogge
+
+----
+
+Image: - file://njfaf5yedqmceslw
+
+----
+
+Uuid: 0if9voud9wb2s95s
