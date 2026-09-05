@@ -1,0 +1,16 @@
+{
+	"name": "git",
+	"description": "Plugin to add git commit/push buttons",
+	"license": "CCL",
+	"type": "kirby-plugin",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Jannick Koppe",
+			"email": "jjlkoppe@hotmail.com"
+		}
+	],
+	"require": {
+		"getkirby/composer-installer": "^1.1"
+	}
+}
