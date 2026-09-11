@@ -9,6 +9,22 @@ function runGit(array $args, string $cwd): string
         2 => ['pipe', 'w'], // stderr
     ];
 
+    $sshDir = '/mnt/web115/d0/91/54620591/htdocs/.ssh';
+    $keyPath = $sshDir . '/id_ed25519';
+    $hostsPath = $sshDir . '/known_hosts';
+
+    // Build the SSH command to force Git to use your specific key and host verification settings
+    $gitSshCommand = sprintf(
+        'ssh -i %s -o UserKnownHostsFile=%s -o StrictHostKeyChecking=no',
+        escapeshellarg($keyPath),
+        escapeshellarg($hostsPath)
+    );
+
+    // Merge system environment with the GIT_SSH_COMMAND override
+    $env = array_merge($_ENV, $_SERVER, [
+        'GIT_SSH_COMMAND' => $gitSshCommand,
+    ]);
+
     $process = proc_open($cmd, $descriptors, $pipes, $cwd);
 
     if (!is_resource($process)) {
