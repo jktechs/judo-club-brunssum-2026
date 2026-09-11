@@ -3,3 +3,6 @@ title: Site
 sections:
   pages:
     type: pages
+  git:
+    type: git
+    label: Git commands
