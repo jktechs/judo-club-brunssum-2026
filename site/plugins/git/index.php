@@ -67,6 +67,27 @@ Kirby::plugin('jcb/git', [
 
                         return ['output' => $output];
                     }
+                ],
+                [
+                    'pattern' => 'push',
+                    'method'  => 'POST',
+                    'action'  => function () {
+                        $kirby = kirby();
+                        $user  = $kirby->user();
+
+                        // Being authenticated just means "some Panel user is
+                        // logged in" — check role/permission separately if
+                        // not every role should be allowed to trigger this.
+                        if ($user === null || $user->isAdmin() === false) {
+                            throw new PermissionException('Not allowed to run commands');
+                        }
+
+                        $repoPath = $kirby->root('index');
+
+                        $output = runGit(['push'], $repoPath);
+
+                        return ['output' => $output];
+                    }
                 ]
             ]
         ],
