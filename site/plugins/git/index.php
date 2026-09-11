@@ -25,7 +25,7 @@ function runGit(array $args, string $cwd): string
         'GIT_SSH_COMMAND' => $gitSshCommand,
     ]);
 
-    $process = proc_open($cmd, $descriptors, $pipes, $cwd);
+    $process = proc_open($cmd, $descriptors, $pipes, $cwd, $env);
 
     if (!is_resource($process)) {
         throw new \RuntimeException('Failed to start git process');
