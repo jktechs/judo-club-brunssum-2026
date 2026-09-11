@@ -1,22 +1,22 @@
 <?php
 
-$sshDir = '/mnt/web115/d0/91/54620591/web_user_ssh';
-$privateKey = $sshDir . '/id_ed25519';
-$publicKey  = $sshDir . '/id_ed25519.pub';
+// $sshDir = '/mnt/web115/d0/91/54620591/web_user_ssh';
+// $privateKey = $sshDir . '/id_ed25519';
+// $publicKey  = $sshDir . '/id_ed25519.pub';
 
-if (!file_exists($sshDir)) {
-    mkdir($sshDir, 0700, true);
-}
+// if (!file_exists($sshDir)) {
+//     mkdir($sshDir, 0700, true);
+// }
 
-if (!file_exists($privateKey)) {
-    // Generate a new Ed25519 SSH key without a passphrase
-    $cmd = sprintf('ssh-keygen -t ed25519 -N "" -f %s', escapeshellarg($privateKey));
-    exec($cmd . ' 2>&1', $output, $returnCode);
+// if (!file_exists($privateKey)) {
+//     // Generate a new Ed25519 SSH key without a passphrase
+//     $cmd = sprintf('ssh-keygen -t ed25519 -N "" -f %s', escapeshellarg($privateKey));
+//     exec($cmd . ' 2>&1', $output, $returnCode);
 
-    if ($returnCode !== 0) {
-        die("Failed to generate key: " . implode("\n", $output));
-    }
-}
+//     if ($returnCode !== 0) {
+//         die("Failed to generate key: " . implode("\n", $output));
+//     }
+// }
 
 function runGit(array $args, string $cwd): string
 {
