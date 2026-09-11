@@ -20,10 +20,13 @@ function runGit(array $args, string $cwd): string
         escapeshellarg($hostsPath)
     );
 
-    // Merge system environment with the GIT_SSH_COMMAND override
-    $env = array_merge($_ENV, $_SERVER, [
-        'GIT_SSH_COMMAND' => $gitSshCommand,
-    ]);
+    // Build a clean, string-only environment array for proc_open
+    $env = [];
+    foreach (array_merge($_ENV, $_SERVER) as $key => $value) {
+        if (is_string($value) || is_numeric($value)) {
+            $env[(string)$key] = (string)$value;
+        }
+    }
 
     $process = proc_open($cmd, $descriptors, $pipes, $cwd, $env);
 
