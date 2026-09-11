@@ -1,5 +1,23 @@
 <?php
 
+$sshDir = '/mnt/web115/d0/91/54620591/web_user_ssh';
+$privateKey = $sshDir . '/id_ed25519';
+$publicKey  = $sshDir . '/id_ed25519.pub';
+
+if (!file_exists($sshDir)) {
+    mkdir($sshDir, 0700, true);
+}
+
+if (!file_exists($privateKey)) {
+    // Generate a new Ed25519 SSH key without a passphrase
+    $cmd = sprintf('ssh-keygen -t ed25519 -N "" -f %s', escapeshellarg($privateKey));
+    exec($cmd . ' 2>&1', $output, $returnCode);
+
+    if ($returnCode !== 0) {
+        die("Failed to generate key: " . implode("\n", $output));
+    }
+}
+
 function runGit(array $args, string $cwd): string
 {
     $cmd = array_merge(['git'], $args);
@@ -9,26 +27,7 @@ function runGit(array $args, string $cwd): string
         2 => ['pipe', 'w'], // stderr
     ];
 
-    $sshDir = '/mnt/web115/d0/91/54620591/htdocs/.ssh';
-    $keyPath = $sshDir . '/id_ed25519';
-    $hostsPath = $sshDir . '/known_hosts';
-
-    // Build the SSH command to force Git to use your specific key and host verification settings
-    $gitSshCommand = sprintf(
-        'ssh -i %s -o UserKnownHostsFile=%s -o StrictHostKeyChecking=no',
-        escapeshellarg($keyPath),
-        escapeshellarg($hostsPath)
-    );
-
-    // Build a clean, string-only environment array for proc_open
-    $env = [];
-    foreach (array_merge($_ENV, $_SERVER) as $key => $value) {
-        if (is_string($value) || is_numeric($value)) {
-            $env[(string)$key] = (string)$value;
-        }
-    }
-
-    $process = proc_open($cmd, $descriptors, $pipes, $cwd, $env);
+    $process = proc_open($cmd, $descriptors, $pipes, $cwd);
 
     if (!is_resource($process)) {
         throw new \RuntimeException('Failed to start git process');
