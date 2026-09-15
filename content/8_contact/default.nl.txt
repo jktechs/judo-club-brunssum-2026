@@ -3,9 +3,6 @@ Title: Contact
 ----
 
 Text:
-
-# Contact
-
 We hebben momenteel nog geen contact formulier.
 
 U kunt de contact gegevens onderaan de site gebruiken of kom tijdens trainingstijden langs. Wil je lid worden? Een lidmaatschapsformulier kan gevonden worden onder [downloads](downloads).

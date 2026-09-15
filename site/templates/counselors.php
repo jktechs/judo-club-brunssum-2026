@@ -11,7 +11,7 @@
 }
 </style>-->
 <article>
-  <h1>Trusted Counselors</h1>
+  <h1><?= t("trusted_counselors") ?></h1>
 </article>
 <div
   style="

@@ -192,11 +192,11 @@ class="secondary outline">
   "club-rules",
 )->title() ?></a>
                   </li>
-                  <li>
+                  <!--<li>
                     <a href="<?= page("code-of-conduct")->url() ?>"><?= page(
   "code-of-conduct",
 )->title() ?></a>
-                  </li>
+                  </li>-->
                 </ul>
               </details>
             </li>

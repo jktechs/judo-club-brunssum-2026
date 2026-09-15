@@ -57,7 +57,7 @@ thead th {
         <?php foreach ($page->groups()->toStructure() as $i => $group): ?>
           <tr>
             <td data-label="<?= t("name") ?>">
-              <?= $group->name()->html() ?>
+              <?= $defaults->nth($i)->name()->html() ?>
             </td>
             <td
               data-label="<?= t("description") ?>"
@@ -65,7 +65,7 @@ thead th {
               <?= $group->desc()->html() ?>
             </td>
             <td data-label="<?= t("price") ?>">
-              € <?= $defaults->nth($i)->price()->toFloat() ?>
+              €<?= number_format($defaults->nth($i)->price()->toFloat(), 2, ",", "") ?>
             </td>
             <td
               data-label="<?= t("lesson-times") ?>"

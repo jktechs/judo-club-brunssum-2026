@@ -1,11 +1,8 @@
-Title: Home
+Title: Welcome to Judoclub Brunssum
 
 ----
 
 Text:
-
-# Welcome to Judoclub Brunssum.
-
 Judo is accessible and suitable for everyone, because one can practice this sport at
 one's own level with one's own personal goals.
 
