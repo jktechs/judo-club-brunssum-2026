@@ -1,0 +1,22 @@
+title: Filtered People
+
+columns:
+  main:
+    sections:
+      text-fields:
+        type: fields
+        fields:
+          role:
+            label: Role
+            type: select
+            options:
+              trainer:
+                *: roles.trainer
+              board:
+                *: roles.board
+              counselor:
+                *: roles.counselor
+            translate: false
+          text:
+            type: textarea
+            size: huge

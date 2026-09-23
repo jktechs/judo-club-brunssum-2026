@@ -20,7 +20,10 @@ return [
         "information" => "information",
         "location" => "Location",
         "phone_number" => "Phone number",
-        "trusted_counselors" => "Trusted Counselors",
+        "roles" => "Functions",
+        "trainer" => "Trainer",
+        "board" => "Board-Member",
+        "counselor" => "Trusted-Counselor"
     ],
     "url" => null,
 ];

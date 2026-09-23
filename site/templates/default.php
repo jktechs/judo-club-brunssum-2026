@@ -3,6 +3,6 @@
   <h1><?= $page->title() ?></h1>
 </article>
 <article>
-  <p><?= $page->text()->kirbytext() ?></p>
+  <?= $page->text()->kirbytext() ?>
 </article>
 <?php snippet("footer"); ?>
