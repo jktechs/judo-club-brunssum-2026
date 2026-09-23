@@ -20,7 +20,10 @@ return [
         "information" => "Informatie",
         "location" => "Locatie",
         "phone_number" => "Telefoon nummer",
-        "trusted_counselors" => "Vertrouwenspersonen",
+        "roles" => "Functies",
+        "trainer" => "Trainer",
+        "board" => "Bestuurslid",
+        "counselor" => "Vertrouwenspersoon"
     ],
     "url" => null,
 ];
