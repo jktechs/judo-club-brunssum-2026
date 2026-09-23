@@ -91,6 +91,24 @@ Kirby::plugin('jcb/git', [
 
                         return ['output' => $output];
                     }
+                ],
+                [
+                    'pattern' => 'pull',
+                    'method'  => 'POST',
+                    'action'  => function () {
+                        $kirby = kirby();
+                        $user  = $kirby->user();
+
+                        if ($user === null || $user->isAdmin() === false) {
+                            throw new PermissionException('Not allowed to run commands');
+                        }
+
+                        $repoPath = $kirby->root('index');
+
+                        $output = runGit(['pull'], $repoPath);
+
+                        return ['output' => $output];
+                    }
                 ]
             ]
         ],

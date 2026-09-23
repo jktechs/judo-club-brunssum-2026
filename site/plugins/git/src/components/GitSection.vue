@@ -27,6 +27,14 @@
     >
         Push
     </k-button>
+    <k-button
+        icon="check"
+        variant="filled"
+        :disabled="loading"
+        @click="pull"
+    >
+        Pull
+    </k-button>
 
 
     <pre v-if="output">{{ output }}</pre>
@@ -67,6 +75,18 @@ export default {
       this.error = null;
       try {
         const response = await this.$api.post('push', { });
+        this.output = response.output;
+      } catch (error) {
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
+    async pull() {
+      this.loading = true;
+      this.error = null;
+      try {
+        const response = await this.$api.post('pull', { });
         this.output = response.output;
       } catch (error) {
         this.error = error.message;
