@@ -52,4 +52,5 @@ Icon
 
 /site/config/.license
 
-.ssh
+.ssh/git_deploy_key
+.ssh/login

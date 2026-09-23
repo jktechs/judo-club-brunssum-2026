@@ -2,7 +2,7 @@
 
 function runGit(array $args, string $cwd): string {
     $env = array_merge($_ENV, [
-        'GIT_SSH_COMMAND' => 'ssh -i '. escapeshellarg($cwd . '/.ssh/git_deploy_key') . ' -o IdentitiesOnly=yes',
+        'GIT_SSH_COMMAND' => 'ssh -i '. escapeshellarg($cwd . '/.ssh/git_deploy_key') . ' -o IdentitiesOnly=yes -o UserKnownHostsFile=' . escapeshellarg($cwd . '/.ssh/known_hosts'),
 
         'GIT_AUTHOR_NAME' => 'JCP Kirby Panel',
         'GIT_AUTHOR_EMAIL' => 'deploy@example.com',
