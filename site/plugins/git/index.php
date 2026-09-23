@@ -109,6 +109,24 @@ Kirby::plugin('jcb/git', [
 
                         return ['output' => $output];
                     }
+                ],
+                [
+                    'pattern' => 'diff',
+                    'method'  => 'POST',
+                    'action'  => function () {
+                        $kirby = kirby();
+                        $user  = $kirby->user();
+
+                        if ($user === null || $user->isAdmin() === false) {
+                            throw new PermissionException('Not allowed to run commands');
+                        }
+
+                        $repoPath = $kirby->root('index');
+
+                        $output = runGit(['--no-pager', 'diff'], $repoPath);
+
+                        return ['output' => $output];
+                    }
                 ]
             ]
         ],

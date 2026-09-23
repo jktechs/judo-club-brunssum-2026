@@ -1,9 +1,10 @@
 <template>
-  <k-box class="k-git-section" theme="passive">
+  <k-box class="k-git-section" theme="passive" style="flex-direction: column">
     <header class="k-section-header">
         <k-headline>{{ label }}</k-headline>
     </header>
 
+    <div style="display: flex; flex-direction: row">
     <k-input
         type="text"
         before="Commit message"
@@ -35,10 +36,20 @@
     >
         Pull
     </k-button>
+    <k-button
+        icon="check"
+        variant="filled"
+        :disabled="loading"
+        @click="diff"
+    >
+        Diff
+    </k-button>
+    </div>
 
-
-    <pre v-if="output">{{ output }}</pre>
+    <div style="display: flex; flex-direction: row">
+    <pre style="white-space: pre-wrap; word-break: break-word; font-family: monospace; width: 100%;" v-if="output">{{ output }}</pre>
     <k-text theme="negative" v-if="error">{{ error }}</k-text>
+    </div>
     </k-box>
 </template>
 
@@ -87,6 +98,18 @@ export default {
       this.error = null;
       try {
         const response = await this.$api.post('pull', { });
+        this.output = response.output;
+      } catch (error) {
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
+    async diff() {
+      this.loading = true;
+      this.error = null;
+      try {
+        const response = await this.$api.post('diff', { });
         this.output = response.output;
       } catch (error) {
         this.error = error.message;
