@@ -1,25 +1,16 @@
 <?php
 
-// $sshDir = '/mnt/web115/d0/91/54620591/web_user_ssh';
-// $privateKey = $sshDir . '/id_ed25519';
-// $publicKey  = $sshDir . '/id_ed25519.pub';
+function runGit(array $args, string $cwd): string {
+    $env = array_merge($_ENV, [
+        'GIT_SSH_COMMAND' => 'ssh -i '. escapeshellarg($cwd . '/.ssh/git_deploy_key') . ' -o IdentitiesOnly=yes',
 
-// if (!file_exists($sshDir)) {
-//     mkdir($sshDir, 0700, true);
-// }
+        'GIT_AUTHOR_NAME' => 'JCP Kirby Panel',
+        'GIT_AUTHOR_EMAIL' => 'deploy@example.com',
 
-// if (!file_exists($privateKey)) {
-//     // Generate a new Ed25519 SSH key without a passphrase
-//     $cmd = sprintf('ssh-keygen -t ed25519 -N "" -f %s', escapeshellarg($privateKey));
-//     exec($cmd . ' 2>&1', $output, $returnCode);
+        'GIT_COMMITTER_NAME' => 'JCP Kirby Panel',
+        'GIT_COMMITTER_EMAIL' => 'deploy@example.com',
+    ]);
 
-//     if ($returnCode !== 0) {
-//         die("Failed to generate key: " . implode("\n", $output));
-//     }
-// }
-
-function runGit(array $args, string $cwd): string
-{
     $cmd = array_merge(['git'], $args);
 
     $descriptors = [
@@ -27,7 +18,7 @@ function runGit(array $args, string $cwd): string
         2 => ['pipe', 'w'], // stderr
     ];
 
-    $process = proc_open($cmd, $descriptors, $pipes, $cwd);
+    $process = proc_open($cmd, $descriptors, $pipes, $cwd, $env);
 
     if (!is_resource($process)) {
         throw new \RuntimeException('Failed to start git process');
@@ -61,9 +52,6 @@ Kirby::plugin('jcb/git', [
                         $kirby = kirby();
                         $user  = $kirby->user();
 
-                        // Being authenticated just means "some Panel user is
-                        // logged in" — check role/permission separately if
-                        // not every role should be allowed to trigger this.
                         if ($user === null || $user->isAdmin() === false) {
                             throw new PermissionException('Not allowed to run commands');
                         }
@@ -77,7 +65,7 @@ Kirby::plugin('jcb/git', [
                         try {
                             $output = runGit(['commit', '-m', $message], $repoPath);
                         } catch (\RuntimeException $e) {
-                            if (str_contains($e->getMessage(), 'nothing to commit')) {
+                            if (str_contains($e->getMessage(), 'no changes added to commit')) {
                                 throw new \Kirby\Exception\Exception('No changes to commit');
                             }
                             throw $e;
@@ -93,9 +81,6 @@ Kirby::plugin('jcb/git', [
                         $kirby = kirby();
                         $user  = $kirby->user();
 
-                        // Being authenticated just means "some Panel user is
-                        // logged in" — check role/permission separately if
-                        // not every role should be allowed to trigger this.
                         if ($user === null || $user->isAdmin() === false) {
                             throw new PermissionException('Not allowed to run commands');
                         }
