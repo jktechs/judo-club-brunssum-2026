@@ -2,6 +2,10 @@ Name: Marcel Rogge
 
 ----
 
+Contact: (email: test@example.com text: test@example.com)
+
+----
+
 Role: trainer, counselor
 
 ----
@@ -26,7 +30,7 @@ Marcel Rogge
 
 ----
 
-Foto: - file://njfaf5yedqmceslw
+Foto: 
 
 ----
 

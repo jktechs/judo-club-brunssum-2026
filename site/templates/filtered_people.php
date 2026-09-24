@@ -34,11 +34,13 @@
         style="height: fit-content; cursor: pointer;"
         onclick="window.location.href='<?= $trainer->url() ?>';"
       >
+        <?php if ($trainer->content()->foto()->isNotEmpty()): ?>
         <img
           alt="Portrait of <?= $trainer->name() ?>"
           src="<?= $trainer->content()->foto()->toFile()->crop(400, 500)->url() ?>"
           style="width: 100%;"
         />
+        <?php endif; ?>
         <h2 style="margin-bottom: 0.2em;margin-top: 0.2em"><?= $trainer->name() ?></h2>
         <p style="margin-bottom: 0px">
           <?= implode(', ', array_map(fn ($role) => t(trim($role)), $trainer->role()->split())) ?>

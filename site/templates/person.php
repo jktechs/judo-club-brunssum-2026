@@ -22,6 +22,7 @@
       <h1><?= $page->name() ?></h1>
     </article>
     <div class="split">
+      <?php if ($page->content()->foto()->isNotEmpty()): ?>
       <div>
       <article>
       <img
@@ -32,6 +33,7 @@
       />
       </article>
       </div>
+      <?php endif; ?>
       <div>
         <article>
           <?php if ($page->contact()->isNotEmpty()): ?>
