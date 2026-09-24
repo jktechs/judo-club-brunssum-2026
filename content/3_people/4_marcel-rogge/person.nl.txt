@@ -2,6 +2,10 @@ Name: Marcel Rogge
 
 ----
 
+Contact: (email: marcelrogge@judoclubbrunssum.nl text: marcelrogge@judoclubbrunssum.nl)
+
+----
+
 Role: trainer, counselor
 
 ----
@@ -18,7 +22,7 @@ Tegenwoordig geef ik vaak gezamenlijk les bij zowel de wedstrijdtraining als bij
 
 Wil je met mij contact opnemen als vertrouwenspersoon dan kan dit door mij voor/na een van de trainingen aan te spreken of door mij een mail te sturen via dit mailadres:
 
-MarcelRogge@judoclubbrunssum.nl
+(link: mailto:marcelrogge@judoclubbrunssum.nl text: marcelrogge@judoclubbrunssum.nl)
 
 Met sportieve groet,
 
