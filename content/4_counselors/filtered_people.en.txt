@@ -1,5 +1,9 @@
-Title: Trusted Counselors
+Title: Trusted Counsellors
 
 ----
 
-Text:
+Slug: counsellors
+
+----
+
+Text: 

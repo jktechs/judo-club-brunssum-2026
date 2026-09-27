@@ -14,7 +14,7 @@ Groups:
 
 - 
   name: O1
-  desc: Beginners tot 8 jaar
+  desc: Beginners t/m 8 jaar
   price: 16.5
   monday_mat: "2"
   monday_start: 18:00:00
@@ -24,7 +24,7 @@ Groups:
   saturday_end: 10:00:00
 - 
   name: O2
-  desc: Redelijk ervaren tot 8 jaar
+  desc: Redelijk ervaren t/m 8 jaar
   price: 16.5
   monday_mat: "1"
   monday_start: 18:00:00
@@ -34,7 +34,7 @@ Groups:
   saturday_end: 10:00:00
 - 
   name: M1
-  desc: Beginners van 9 tot 13 jaar
+  desc: Beginners van 9 t/m 13 jaar
   price: 16.5
   monday_mat: "3"
   monday_start: 18:00:00
@@ -44,7 +44,7 @@ Groups:
   saturday_end: 10:00:00
 - 
   name: M2
-  desc: Redelijk ervaren van 9 tot 13 jaar
+  desc: Redelijk ervaren van 9 t/m 13 jaar
   price: 16.5
   monday_mat: "3"
   monday_start: 19:00:00
@@ -54,7 +54,7 @@ Groups:
   saturday_end: 12:30:00
 - 
   name: M3
-  desc: Ervaren van 9 tot 13 jaar
+  desc: Ervaren van 9 t/m 13 jaar
   price: 16.5
   monday_mat: "3"
   monday_start: 19:00:00
@@ -64,7 +64,7 @@ Groups:
   saturday_end: 12:30:00
 - 
   name: B1
-  desc: Senioren van 14-16 jaar
+  desc: Senioren van 14 t/m 16 jaar
   price: 17.5
   monday_mat: 1+2
   monday_start: 19:00:00
