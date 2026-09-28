@@ -27,8 +27,8 @@ columns:
                 *: trainer
               board:
                 *: board
-              counselor:
-                *: counselor
+              counsellor:
+                *: counsellor
             translate: false
           bio:
             label: Bio

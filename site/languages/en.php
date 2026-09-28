@@ -23,7 +23,7 @@ return [
         "roles" => "Functions",
         "trainer" => "Trainer",
         "board" => "Board-Member",
-        "counselor" => "Trusted-Counselor"
+        "counsellor" => "Trusted-Counsellor"
     ],
     "url" => null,
 ];
