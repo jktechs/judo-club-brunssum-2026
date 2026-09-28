@@ -2,7 +2,7 @@ Title: Vertrouwenspersonen
 
 ----
 
-Role: counselor
+Role: counsellor
 
 ----
 
