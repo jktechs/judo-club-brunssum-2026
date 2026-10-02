@@ -183,8 +183,8 @@ class="secondary outline">
 )->title() ?></a>
                   </li>
                   <li>
-                    <a href="<?= page("counselors")->url() ?>"><?= page(
-  "counselors",
+                    <a href="<?= page("counsellors")->url() ?>"><?= page(
+  "counsellors",
 )->title() ?></a>
                   </li>
                   <li>

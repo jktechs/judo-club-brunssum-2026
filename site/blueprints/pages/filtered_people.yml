@@ -14,8 +14,8 @@ columns:
                 *: roles.trainer
               board:
                 *: roles.board
-              counselor:
-                *: roles.counselor
+              counsellor:
+                *: roles.counsellor
             translate: false
           text:
             type: textarea
